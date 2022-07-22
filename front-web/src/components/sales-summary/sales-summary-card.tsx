@@ -3,7 +3,7 @@ import React from 'react';
 import { ReactComponent as DoneIcon } from '../../assets/imgs/done.svg';
 
 type Props = {
-  value: number;
+  value: number | string;
   label: string;
   icon: React.ReactNode;
 };
